@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="38" height="21" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="u5_tileset" tilewidth="64" tileheight="64">
+  <image source="../assets/u5_tileset.png" width="2048" height="1024"/>
+  <tile id="0">
+   <properties>
+    <property name="components" value="SceneTrigger, Scene-Worldmap"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+    <property name="description" value="Shrubbery."/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+    <property name="description" value="Trees."/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+    <property name="description" value="Farmland."/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+    <property name="description" value="Farmland."/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="components" value="IndoorTerrain"/>
+    <property name="description" value="You are home."/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="components" value="Solid"/>
+    <property name="description" value="Blocked!"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="components" value="IndoorTerrain"/>
+    <property name="description" value="You are home."/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="components" value="IndoorTerrain, Interactable"/>
+    <property name="description" value="A sturdy chair."/>
+    <property name="interactionSprite" value="17,9"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="components" value="IndoorTerrain, Interactable"/>
+    <property name="description" value="A sturdy chair."/>
+    <property name="interactionSprite" value="18,9"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="Your dining table."/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="Your dining table."/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="Your dining table."/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="An empty barrel."/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="A water pitcher."/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="components" value="IndoorTerrain, Interactable"/>
+    <property name="description" value="Your bed."/>
+    <property name="interactionSprite" value="26,8"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="components" value="IndoorTerrain"/>
+    <property name="description" value="Your bed."/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="components" value="Solid, Right_Torch, IndoorTerrain"/>
+    <property name="description" value="A torch."/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="A torch."/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid, Left_Torch"/>
+    <property name="description" value="A torch."/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="components" value="Solid, Useable, Door"/>
+    <property name="description" value="A solid door."/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="components" value="Solid, IndoorTerrain, Stove"/>
+    <property name="description" value="Your stove."/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="components" value="IndoorTerrain, Solid"/>
+    <property name="description" value="Your wood stove."/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="components" value="OutdoorTerrain, Solid"/>
+    <property name="description" value="A sturdy fence."/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="components" value="OutdoorTerrain, Solid"/>
+    <property name="description" value="A fence post."/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="components" value="IndoorTile"/>
+    <property name="description" value="Blocked!"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="components" value="OutdoorTile"/>
+   </properties>
+  </tile>
+  <tile id="334">
+   <properties>
+    <property name="components" value="PlayerCharacter"/>
+   </properties>
+  </tile>
+  <tile id="500">
+   <properties>
+    <property name="components" value="OutdoorTerrain"/>
+    <property name="description" value="It is grass."/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="terrain" width="38" height="21">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEOACAIA8D6//hcduMukwWUdOhKDtIEG4AVBk4qTXLJVWHq4mLvw3BF3frGFdkDufJcr/brNINhYrl2Jngmposduf53df/bmbYFqlddwg==
+  </data>
+ </layer>
+ <layer name="trees/fixtures" width="38" height="21">
+  <data encoding="base64" compression="zlib">
+   eJzt1k0KgCAQBWC3Q2ep+9+hS7VREHF+3qiTCx8MBNX0NRmVEp9LKS5kOFfrocXTd4YLPUbrS4EuydZzWU3oLLi01+ztX+nyrknEc1zHtaOLNnV5stLlmZPXJLlepv52PUxFmCTXnat4ynaESXN55zVqsjzHdm7W1O8L+s2OWPd1Zv9/SfeNuqw2xIX24Gwjrg9H1x6B
+  </data>
+ </layer>
+ <layer name="buildings" width="38" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztksEJgEAMBNPcfS1OUUsQREFswNbcewTCkbd7wg7MO0MSMyHE3xgS2XjHBgt8jN/m80sis63OPeDZNE2hjdUVe0Y4wwWu5K7d8juy91W9m57L+vx9dpMT23ppEkJ8wwtS/hgn
+  </data>
+ </layer>
+ <layer name="triggers" width="38" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztlkEKACEIRXXdAQbm/gedZRJZ/bB0wAd/2ffhImQiYiUzRu9W+4pIr9uatnPH6wba3ry9tHmRvOTMKF7tzPSak14Y6YXxZy8PTng9Bgu29nq5JpKXFemF4f1P9LqRO2flNkcz6pFoXh/CIQNz
+  </data>
+ </layer>
+ <layer name="doors" width="38" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiD7N1q7tdAHEpAAAHTdOgDUPerOALo=
+  </data>
+ </layer>
+ <layer name="actors" width="38" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAC+Bgx4AAE=
+  </data>
+ </layer>
+</map>
